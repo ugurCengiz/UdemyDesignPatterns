@@ -3,8 +3,9 @@ using System.Threading.Tasks;
 using BaseProject.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using WebApp.Command.Controllers;
 
-namespace BaseProject.Controllers
+namespace WebApp.Command.Controllers
 {
     public class AccountController : Controller
     {
