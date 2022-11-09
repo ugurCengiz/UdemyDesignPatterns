@@ -1,0 +1,48 @@
+﻿@using Web.App.Composite.Composite
+
+@{
+    ViewData["Title"] = "Index";
+    var menu = ViewBag.menus as BookComposite;
+}
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("ul").hide();
+            $(".menu").click(function (e) {
+                e.preventDefault();
+                $(this).parent().next().toggle();
+            })
+        })
+    </script>
+}
+
+
+<form asp-controller="CategoryMenu" asp-action="Index" method="post">
+    <select name="categoryId" asp-items="ViewBag.selectList"> </select>
+    <input type="text" name="bookName"/>
+    <input type="submit" name="Save"/>
+</form>
+<div class="row mt-5">
+
+    <div class="col-md-4">
+
+        <div class="card bg-light">
+
+            <div class="card-header">
+                Toplam kitap(@menu.Count())
+            </div>
+
+            <div class="card-body">
+                @foreach (var item in menu.Components)
+                {
+                    @Html.Raw(item.Display())
+                }
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
