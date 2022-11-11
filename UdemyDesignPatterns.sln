@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.App.ChainOfResponsibili
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.App.Composite", "Web.App.Composite\Web.App.Composite.csproj", "{D738FE57-6D1C-4EFC-96E7-2498E17F9D23}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webb.App.Decorator", "Webb.App.Decorator\Webb.App.Decorator.csproj", "{BECD108A-A1F6-44F5-B212-35E89C8BA8C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.App.Adapter", "Web.App.Adapter\Web.App.Adapter.csproj", "{42463B55-4C13-4D72-B2CD-B7F355D6E829}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{D738FE57-6D1C-4EFC-96E7-2498E17F9D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D738FE57-6D1C-4EFC-96E7-2498E17F9D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D738FE57-6D1C-4EFC-96E7-2498E17F9D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BECD108A-A1F6-44F5-B212-35E89C8BA8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECD108A-A1F6-44F5-B212-35E89C8BA8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECD108A-A1F6-44F5-B212-35E89C8BA8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECD108A-A1F6-44F5-B212-35E89C8BA8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42463B55-4C13-4D72-B2CD-B7F355D6E829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42463B55-4C13-4D72-B2CD-B7F355D6E829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42463B55-4C13-4D72-B2CD-B7F355D6E829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42463B55-4C13-4D72-B2CD-B7F355D6E829}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
